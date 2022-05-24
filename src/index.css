@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family:Poppins;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to right, rgb(78, 232, 232) , rgb(205, 47, 113));
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.boardgame{
+  text-align:center;
+  margin:auto;
+}
+
+.bRow{
+  display:flex;
+  justify-content: center;
+  
+}
+
+.cssbtn{
+  height:120px;
+  width:120px;
+  font-size: 50px;
+  background-color:rgb(209, 179, 179);
+}
+
+.App{
+  width:80%;
+  margin:auto;
+}
+
+.header1{
+  text-align:center;
+  font-size:40px;
+  text-shadow: 2px 2px 4px rgb(114, 182, 197);
+}
+
+.hide{
+  display:none;
+};
+.visiblediv{
+  display:none;
+  
+}
+.imgclass{
+  height:390px;
+  width:480px;
+}
